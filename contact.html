@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fontawsone library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- tiny slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- loading Elment -->
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <!-- start navbar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+            <img src="images/logo.png.webp" alt="">
+            </div>
+        <ul class="menu" id="menu">
+            <div class="close" id="hide"> <i class="fa-solid fa-xmark"></i></div>
+            <li><a href="index.html">Home</a></li>
+            <li class="drop"><a href="">Dropdown</a><i class="fas fa-chevron-down"></i>
+                <!-- sub-menu -->
+                <ul class="sub">
+                    <li><a href="">Menu One</a></li>
+                    <li class="drop2"><a href="">Menu Two</a><i class="fas fa-chevron-right"></i>
+                        <ul class="sub2">
+                            <li><a href="">Sub Menu One</a></li>
+                            <li><a href="">Sub Menu Two</a></li>
+                            <li><a href="">Sub Menu Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Menu Three</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="mobile"><a href="">Download Now</a></li>
+            <li><a href="" class="btn">Download Now</a></li>
+        </ul>
+        <div class="bars" id="bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start landing -->
+    <section class="landing">
+        <div class="container">
+            <div class="box">
+                <span class="sub-heading" data-aos="fade-up" data-aos-duration="1000">CONTACT</span>
+                <h1 class="heading" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Get In Touch</h1>
+                <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <div  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <a href="" class="btn bt1">How We Work</a>
+                <a href="" class="btn bt2">Contact Us</a>
+                </div>
+                
+            </div>
+            <div class="image" data-aos="fade-left" data-aos-duration="1000">
+                <img src="images/about_1.png.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end landing -->
+    <!-- start contact us -->
+    <section class="contact">
+        <div class="container">
+            <form action="" data-aos="fade-up" data-aos-duration="1000">
+                <div class="heading-box">
+                    <p>Contact Us</p>
+                <h1 class="heading">Let's have a talk</h1>
+                </div>
+                <div class="input same-line" ><label for="name">First name</label>
+                    <input type="text" id="name" name="name"></div>
+                <div class="input same-line">
+                    <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="input"><label for="mail">Email Address</label>
+                    <input type="email" id="mail" name="mail"></div>
+                    <div class="input">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <a href="" class="btn">Send Message</a>
+                
+            </form>
+            
+        </div>
+    </section>
+    <!-- end contact us -->
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+            <div class="box-1">
+                <h3>About Cololib</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <ul class="social">
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i><a href="">info@Cololib</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="">+1 222 212 3819</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="">43 Raymouth Rd. Baltemoer, London 3910</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>Copyright ©2023 All rights reserved | This template is made with <span style="color: red;">❤</span>  by Osama Mohamed</p>
+        </div>
+        
+    </footer>
+    <!-- end footer  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
